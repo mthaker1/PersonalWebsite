@@ -1,0 +1,74 @@
+<div id="section5">
+  <div id="contactContainer" class="container">
+    <div id="contactMessage">
+      <h1 id="contactMessageHeader">
+        Please feel free to contact me using the links below!
+      </h1>
+      <br />
+    </div>
+    <div id="contactInformation">
+      <div class="row">
+        <div class="col-6 col-sm-4 iconInformation">
+          <a>
+            <fa-icon
+              [icon]="faEnvelope"
+              size="4x"
+              [styles]="{ color: 'white' }"
+            ></fa-icon>
+            <div class="iconTextContainer">
+              <h1 class="iconHeader">Email</h1>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 iconInformation">
+          <a href="https://www.linkedin.com/in/manas-thaker/">
+            <fa-icon
+              [icon]="faLinkedin"
+              size="4x"
+              [styles]="{ color: 'white' }"
+            ></fa-icon>
+            <div class="iconTextContainer">
+              <h1 class="iconHeader">Linkedin</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-4 iconInformation">
+          <a href="https://github.com/mthaker1">
+            <fa-icon
+              [icon]="faGithub"
+              size="4x"
+              [styles]="{ color: 'white' }"
+            ></fa-icon>
+            <div class="iconTextContainer">
+              <h1 class="iconHeader">Github</h1>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 iconInformation">
+          <a href="">
+            <fa-icon
+              [icon]="faFileAlt"
+              size="4x"
+              [styles]="{ color: 'white' }"
+            ></fa-icon>
+            <div class="iconTextContainer">
+              <h1 class="iconHeader">Resume</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="arrowLeft">
+    <fa-icon
+      (click)="goToPreviousSlide()"
+      [icon]="faChevronLeft"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+</div>

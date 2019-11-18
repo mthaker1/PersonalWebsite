@@ -1,0 +1,28 @@
+<div id="sectionOne">
+  <div id="typingMessage">
+    <ngx-typed-js
+      [typeSpeed]="60"
+      [startDelay]="1000"
+      [backSpeed]="60"
+      [backDelay]="1000"
+      [strings]="['Manas Thaker', 'a software engineer', 'a coding enthusiast']"
+      [loop]="true"
+    >
+      <fa-icon
+        [icon]="faCube"
+        size="9x"
+        [styles]="{ stroke: 'red', color: 'silver' }"
+      ></fa-icon>
+      <h1 class="helloMessage homeText">Hi I'm</h1>
+      <h1 class="typing homeText"></h1>
+    </ngx-typed-js>
+  </div>
+  <div id="arrowRight">
+    <fa-icon
+      (click)="goToNextSlide()"
+      [icon]="faChevronRight"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+#contactContainer {
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  justify-content: center;
+}
+
+.iconInformation {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#contactMessage {
+  margin-left: 5%;
+}
+
+#contactMessageHeader {
+  color: white;
+  font-size: 5vh;
+}
+
+.iconHeader {
+  color: white;
+  font-size: 7vh;
+}
+
+#contactInformation {
+  width: 100%;
+}
+
+#arrowLeft {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}

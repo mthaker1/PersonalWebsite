@@ -1,0 +1,31 @@
+<div id="section2">
+  <div id="introTextContainer" class="container">
+    <div id="introText">
+      <h1 id="helloMessage">Hello.</h1>
+      <h2 id="introParagraph">
+        My name is Manas Thaker. I am currently a 3rd year studying Computer
+        Science at the University of Waterloo and expected to graduate in 2022.
+        I also love coming up with clever and optimal algorithms to solve unique
+        problems. In my free time, I like to play tennis and chess with my
+        friends. Slide right to take a look at my experiences.
+      </h2>
+    </div>
+  </div>
+  <div id="arrowLeft">
+    <fa-icon
+      (click)="goToPreviousSlide()"
+      [icon]="faChevronLeft"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+
+  <div id="arrowRight">
+    <fa-icon
+      (click)="goToNextSlide()"
+      [icon]="faChevronRight"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+</div>

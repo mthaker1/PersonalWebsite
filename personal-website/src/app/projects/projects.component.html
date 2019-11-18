@@ -1,0 +1,57 @@
+<div id="section4">
+  <div id="projectInformationContainer" class="container">
+    <div id="sideProjectInformation" class="card-deck">
+      <div class="card">
+        <img
+          src="../../assets/images/focusIcon.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../../assets/images/WikipediaLogo.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="arrowLeft">
+    <fa-icon
+      (click)="goToPreviousSlide()"
+      [icon]="faChevronLeft"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+
+  <div id="arrowRight">
+    <fa-icon
+      (click)="goToNextSlide()"
+      [icon]="faChevronRight"
+      size="3x"
+      [styles]="{ color: 'white' }"
+    ></fa-icon>
+  </div>
+</div>
