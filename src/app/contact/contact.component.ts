@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
   ngOnInit() {}
 
   goToPreviousSlide() {
-    this.router.navigateByUrl("/jobs");
+    this.router.navigateByUrl("/projects");
   }
 
   goToNextSlide() {
