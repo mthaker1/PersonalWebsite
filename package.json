@@ -1,6 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.0.0",
+  "homepage": "./",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
