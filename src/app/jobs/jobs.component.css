@@ -11,6 +11,19 @@
   height: 100%;
 }
 
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-title{
+  text-align: left;
+}
+
+.card-text{
+  text-align: left;
+}
+
 #arrowLeft {
   position: absolute;
   top: 50%;
@@ -21,4 +34,9 @@
   position: absolute;
   top: 50%;
   right: 5%;
+}
+
+img{
+  max-width: 130px;
+  max-height: 130px;
 }
